@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 
 # name = 'sohaib Bin Maqsood'
 # puts name[0..-2]
@@ -52,3 +53,6 @@ puts str.frozen?
 
 
 # introduction(32,Female, sohaib)
+=======
+puts 'Hello World!' 
+>>>>>>> 68009be12d5fb55f7725ffa397880fb5918213a6
