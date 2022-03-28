@@ -1,4 +1,4 @@
-# frozen_string_literal: true
+
 
 # name = 'sohaib Bin Maqsood'
 # puts name[0..-2]
@@ -34,11 +34,11 @@
 # str.replace("this is new string")
 
 
-# str = "this is string"
-# str.freeze
-# puts str.frozen?
-# str = "this is new string"
-# puts str.frozen?
+str = 'this is string'
+str.freeze
+puts str.frozen?
+str = 'this is new string'
+puts str.frozen?
 
 # foo = :bar
 # puts "symbol #{foo} with object id = #{foo.object_id}"
@@ -46,9 +46,9 @@
 # puts "symbol #{foo} with object id = #{foo.object_id}"
 
 
-def introduction(age,gender,*names)
-  "Meet #{names.join(' ')}, who's #{age} and #{gender}"
-end
+# def introduction(age,gender,*names)
+#   "Meet #{names.join(' ')}, who's #{age} and #{gender}"
+# end
 
 
-introduction(32,Female, sohaib)
+# introduction(32,Female, sohaib)
